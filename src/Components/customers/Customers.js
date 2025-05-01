@@ -7,19 +7,19 @@ const Customers = () => {
       id: 1,
       description:
         "Great way to save on the stuff you buy anyway. I always check Moola first when shopping online or in-store. It also helped me organize all my rewards cards in one place which stream-lined my wallet.",
-      img: "img/googlecard.png",
+      img: "/img/googlecard.png",
     },
     {
       id: 2,
       description:
         "It's very easy to use, has more than 200 brands, and also lots of discounts and bonuses. Once you've paid you can receive the gift cards within 1 minute.",
-      img: "img/gplaycard.png",
+      img: "/img/gplaycard.png",
     },
     {
       id: 3,
       description:
         "This is a great app that saves money. Saved over 200 dollars so far!",
-      img: "img/applecard.png",
+      img: "/img/applecard.png",
     },
   ];
   return (
@@ -39,7 +39,7 @@ const Customers = () => {
               <div
                 className="customersCard"
                 style={{
-                  backgroundImage: `url(${process.env.PUBLIC_URL + card.img}')`,
+                  backgroundImage: `url(${process.env.PUBLIC_URL + card.img})`,
                 }}
               >
                 <div>
