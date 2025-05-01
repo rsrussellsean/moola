@@ -9,7 +9,7 @@ const Card = () => {
           <div
             className="containerCard"
             style={{
-              backgroundImage: 'url("/img/c1phone.png")',
+              backgroundImage: `url(${process.env.PUBLIC_URL}/img/c1phone.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -41,7 +41,7 @@ const Card = () => {
           <div
             className="containerCard"
             style={{
-              backgroundImage: 'url("/img/c2phone.png")',
+              backgroundImage: `url(${process.env.PUBLIC_URL}/img/c2phone.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

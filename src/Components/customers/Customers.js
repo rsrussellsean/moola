@@ -39,7 +39,7 @@ const Customers = () => {
               <div
                 className="customersCard"
                 style={{
-                  backgroundImage: `url('${card.img}')`,
+                  backgroundImage: `url(${process.env.PUBLIC_URL + card.img}')`,
                 }}
               >
                 <div>

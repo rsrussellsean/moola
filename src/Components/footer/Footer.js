@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="col-md-3 text-md-start text-center mb-4 mb-md-0">
               <img
                 className="logo navbar-brand img-fluid"
-                src="/img/logo2.svg"
+                src="img/logo2.svg"
                 alt="Logo"
               />
             </div>
@@ -58,16 +58,16 @@ const Footer = () => {
             <div className="text-center  mt-md-0">
               <div className="d-flex justify-content-center mt-4 ">
                 <a href="#">
-                  <img src="/img/ig.png" alt="Instagram" className="mx-2" />
+                  <img src="img/ig.png" alt="Instagram" className="mx-2" />
                 </a>
                 <a href="#">
-                  <img src="/img/twitter.png" alt="Twitter" className="mx-2" />
+                  <img src="img/twitter.png" alt="Twitter" className="mx-2" />
                 </a>
                 <a href="#">
-                  <img src="/img/youtube.png" alt="YouTube" className="mx-2" />
+                  <img src="img/youtube.png" alt="YouTube" className="mx-2" />
                 </a>
                 <a href="#">
-                  <img src="/img/ld.png" alt="LinkedIn" className="mx-2" />
+                  <img src="img/ld.png" alt="LinkedIn" className="mx-2" />
                 </a>
               </div>
             </div>

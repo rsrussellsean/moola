@@ -25,7 +25,9 @@ const Giftcards = () => {
               <div
                 className="giftcard"
                 style={{
-                  backgroundImage: `url(${card.backgroundImage})`,
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL + card.backgroundImage
+                  })`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -41,7 +43,7 @@ const Giftcards = () => {
                 <div className="containerGiftcard text-center">
                   <img
                     style={{ width: "auto", height: "100px" }}
-                    src={card.logo}
+                    src={process.env.PUBLIC_URL + card.logo}
                     alt={card.brand}
                   />
                   <p className="mt-3 bold-text cardText">{card.brand}</p>
