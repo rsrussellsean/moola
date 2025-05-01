@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/moola/static/css/main.2e5268d6.css",
+    "main.js": "/moola/static/js/main.bbc9a157.js",
+    "static/media/wave.png": "/moola/static/media/wave.689c867dd4da2cb6f3b4.png",
+    "index.html": "/moola/index.html",
+    "main.2e5268d6.css.map": "/moola/static/css/main.2e5268d6.css.map",
+    "main.bbc9a157.js.map": "/moola/static/js/main.bbc9a157.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e5268d6.css",
+    "static/js/main.bbc9a157.js"
+  ]
+}
